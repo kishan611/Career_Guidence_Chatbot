@@ -46,7 +46,7 @@ counter = 0
 
 def main():
     global counter
-    st.title("Intents of Chatbot using NLP")
+    st.title("Career Guidance Chatbot")
 
     # Create a sidebar menu with options
     menu = ["Home", "Conversation History", "About"]
@@ -54,7 +54,7 @@ def main():
 
     # Home Menu
     if choice == "Home":
-        st.write("Welcome to the chatbot. Please type a message related to Career Gudience  and press Enter to start the conversation.")
+        st.write("Welcome to the chatbot. Please type a message related to Career Guidance  and press Enter to start the conversation.")
 
         # Check if the chat_log.csv file exists, and if not, create it with column names
         if not os.path.exists('chat_log.csv'):
